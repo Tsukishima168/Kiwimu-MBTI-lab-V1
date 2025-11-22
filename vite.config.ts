@@ -21,3 +21,7 @@ export default defineConfig(({ mode }) => {
       }
     };
 });
+export default defineConfig({
+  base: '/Kiwimu-MBTI-lab-V1/',
+  plugins: [react()],
+});
